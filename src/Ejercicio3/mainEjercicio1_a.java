@@ -4,6 +4,7 @@ import java.util.*;
 
 public class mainEjercicio1_a {
 	public static void main(String[] args) {
+		/*
 		ArrayList<Profesor> profesores = new ArrayList<Profesor>();
 		
 		Profesor profesor = new Profesor();
@@ -58,5 +59,6 @@ public class mainEjercicio1_a {
 		while (iter.hasNext()) {
 			System.out.print(iter.next().toString() + "\n");
 		}
+		*/
 	}
 }

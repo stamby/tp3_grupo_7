@@ -11,7 +11,7 @@ public class Persona {
 	private String apellido;
 	private int dni;
 	
-	public Empleado() {
+	public Persona() {
 	}
 	
 	public String getNombre() {
