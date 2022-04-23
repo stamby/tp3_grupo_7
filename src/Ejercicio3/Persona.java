@@ -37,7 +37,7 @@ public class Persona {
 		this.dni = dni;
 	}
 	
-	public void verificarDniInvalido(String dni) {
+	public void verificarDniInvalido(String dni) throws DniInvalido {
 		// Verifico que sólo haya números
 		if (!dni.matches("^[0-9]+$")) {
 			throw new DniInvalido(
